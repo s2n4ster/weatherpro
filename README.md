@@ -1,11 +1,17 @@
 # WeatherPro
-## Возможности
-- Поиск погоды по городу
-- Подсказки городов с флагами стран
-- Переключение языка (русский/английский)
-- Прогноз на 3 дня
-- Открытие города на карте (OpenStreetMap)
-- Современный дизайн
+## Features
 
-## Скриншот
-![WeatherPro screenshot](Screenshot_2.png)
+- Search weather by city
+- City suggestions with country flags
+- Multi-language support (English/Russian)
+- 3-day forecast
+- View city on the map (OpenStreetMap)
+- Clean, modern design
+
+## Screenshot
+
+![WeatherPro screenshot](screenshot.png)
+
+---
+
+Powered by [OpenWeatherMap API](https://openweathermap.org/api)
