@@ -11,4 +11,4 @@
 [Открыть сайт](https://s2n4ster.github.io/weatherpro/)
 
 ## Скриншот
-![WeatherPro screenshot](screenshot.png)
+![WeatherPro screenshot](Screenshot_2.png)
