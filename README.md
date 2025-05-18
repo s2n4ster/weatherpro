@@ -7,8 +7,5 @@
 - Открытие города на карте (OpenStreetMap)
 - Современный дизайн
 
-## Демо
-[Открыть сайт](https://s2n4ster.github.io/weatherpro/)
-
 ## Скриншот
 ![WeatherPro screenshot](Screenshot_2.png)
