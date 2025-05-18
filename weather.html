@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>МетеоПро</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="search-box">
+            <input type="text" placeholder="Введите город" id="cityInput">
+            <button onclick="getWeather()" id="searchBtn">Поиск</button>
+            <select id="langSelect">
+                <option value="ru">Русский</option>
+                <option value="en">English</option>
+            </select>
+            <div class="suggestions" id="suggestions"></div>
+        </div>
+        <div class="weather-info" id="weatherInfo">
+            <img src="" alt="weather icon" class="weather-icon" id="weatherIcon">
+            <div class="temperature" id="temperature">--°C</div>
+            <div class="description" id="description">Введите город</div>
+            <div class="details">
+                <div class="detail-item">
+                    <div>Влажность</div>
+                    <div id="humidity">--%</div>
+                </div>
+                <div class="detail-item">
+                    <div>Ветер</div>
+                    <div id="wind">-- м/с</div>
+                </div>
+            </div>
+            <div class="forecast" id="forecast"></div>
+            <button id="mapBtn" class="map-btn">Открыть на карте</button>
+        </div>
+        <div class="map-panel" id="mapPanel">
+            <button class="close-map" id="closeMapBtn">×</button>
+            <div id="mapContainer"></div>
+        </div>
+        <div class="loading" id="loading">Загрузка...</div>
+        <div class="error" id="error"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
