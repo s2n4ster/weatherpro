@@ -1,4 +1,4 @@
-const apiKey = '4f1d1eb8ca5dbd42b6c0dbcc1e5ff055';
+const apiKey = '';
 const weatherApi = {
     base: 'https://api.openweathermap.org/data/2.5/',
     units: 'metric',
