@@ -10,7 +10,7 @@
 
 ## Screenshot
 
-![WeatherPro screenshot](screenshot.png)
+![WeatherPro screenshot](Screenshot_2.png)
 
 ---
 
